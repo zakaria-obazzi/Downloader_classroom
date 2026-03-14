@@ -1,0 +1,16 @@
+# Google API secrets — NEVER push these
+credentials.json
+token.json
+
+# Downloaded files — too large for GitHub
+classroom_downloads/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
