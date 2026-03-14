@@ -1,27 +1,4 @@
-"""
-Google Classroom Downloader
-============================
-Downloads ALL materials from ALL your Google Classroom courses:
-- Course materials (PDFs, DOCX, PPTX, images, etc.)
-- Assignments + attachments
-- Announcements + attachments
-- Google Docs/Sheets/Slides → exported as PDF
 
-SETUP (run once):
-    pip install google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client requests
-
-INSTRUCTIONS:
-    1. Go to https://console.cloud.google.com/
-    2. Create a new project
-    3. Enable these APIs:
-       - Google Classroom API
-       - Google Drive API
-    4. Go to "OAuth consent screen" → External → Add your Gmail
-    5. Go to "Credentials" → Create OAuth 2.0 Client ID → Desktop App
-    6. Download the JSON → rename it "credentials.json"
-    7. Put credentials.json in the same folder as this script
-    8. Run: python classroom_downloader.py
-"""
 
 import os
 os.environ["OAUTHLIB_RELAX_TOKEN_SCOPE"] = "1"
